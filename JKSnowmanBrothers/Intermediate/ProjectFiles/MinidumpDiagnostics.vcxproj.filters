@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\MinidumpDiagnostics.Target.cs" />
+		<None Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\MinidumpDiagnostics.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{16F84CAE-2CED-424D-A06E-AFBA6D49B802}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Private\MinidumpDiagnosticsApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{B6D65F3D-DFA1-46FC-97D7-0A8F0FB51A67}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Private\Mac\MinidumpDiagnosticsMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{56901CF5-1FFB-47F7-B05F-C6BEF2B22EA3}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Private\Windows\MinidumpDiagnosticsMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{14971606-CA2C-43D9-8B9F-0EEB1E3D6B20}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Public\MinidumpDiagnosticsApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{1AE15E19-FAE9-4401-93EC-61FA2A4B960A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{8CDEFEF4-658D-4F55-8661-A8E4B9A51347}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<ResourceCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\MinidumpDiagnostics\Resources\Windows\PCLaunch.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

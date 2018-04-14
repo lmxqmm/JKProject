@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+		<None Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{A9F3057C-1118-4B3B-A15E-8A0181025914}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{DCE3A0BB-143C-4B93-A04E-E34D173FCFB4}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\..\..\..\..\UnrealEngine-4.18\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

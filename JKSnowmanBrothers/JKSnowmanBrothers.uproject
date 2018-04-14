@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{677D79A4-49B5-40F0-E082-A6AE5816114D}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "JKSnowmanBrothers",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
